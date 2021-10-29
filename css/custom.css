@@ -66,11 +66,15 @@
 /* misc */
 
 .text-darker-shadow {
-    text-shadow: 2px 2px 2px #0D0D0D !important;
+    text-shadow: 1px 1px 1px #0D0D0D !important;
 }
 
 .more-btn {
     font-size: 10px !important;
     margin-top: -8px !important;
     padding-bottom: 8px !important;
+}
+
+hr {
+    margin: 10px 0 !important;
 }
