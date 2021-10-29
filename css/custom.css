@@ -68,3 +68,9 @@
 .text-darker-shadow {
     text-shadow: 2px 2px 2px #0D0D0D !important;
 }
+
+.more-btn {
+    font-size: 10px !important;
+    margin-top: -8px !important;
+    padding-bottom: 8px !important;
+}
