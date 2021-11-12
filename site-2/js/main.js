@@ -1,13 +1,14 @@
 // modal image gallery
 function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
 }
 
 // change style of navbar on scroll
-window.onscroll = function() {myFunction()};
+window.onscroll = function() { myFunction() };
+
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -31,15 +32,15 @@ function toggleFunction() {
 document.getElementsByClassName("tablink")[0].click();
 
 function openTab(evt, tabName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("tab");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].classList.remove("w3-light-grey");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.classList.add("w3-light-grey");
+    var i, x, tablinks;
+    x = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].classList.remove("w3-light-grey");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.classList.add("w3-light-grey");
 }
