@@ -25,17 +25,17 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        
+
         .parallax-1 {
             background-image: url("img/running-min.png");
             min-height: 800px;
         }
-        
+
         .parallax-2 {
             background-image: url("img/biking-min.png");
             min-height: 400px;
         }
-        
+
         .parallax-3 {
             background-image: url("img/kayaking-min.png");
             min-height: 400px;
@@ -59,7 +59,9 @@
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar" id="myNavbar">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
 
             <a href="#home" class="w3-bar-item w3-button">HOME</a>
             <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
@@ -83,7 +85,7 @@
     <div class="parallax-1 w3-display-container w3-opacity-min" id="home">
         <div class="w3-display-middle" style="white-space:nowrap;">
             <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Passionate Web
-        Developer</span>
+                Developer</span>
         </div>
     </div>
 
@@ -91,14 +93,20 @@
     <div class="w3-content w3-container w3-padding-64" id="about">
         <h3 class="w3-center">About Me</h3>
         <p class="w3-center"><em>I Love Learning!</em></p>
-        <p>I appreciate the differences between people and shy away from using generalizations or “types” because I don’t want to obscure what is special and distinct about each person. I'm intrigued by their unique qualities. I see each person’s style,
-            their motivation, how they think, and how they build relationships. Seeing the world through their eyes helps me understand the one-of-a-kind stories in each person’s life. It helps me understand, anticipate needs, hear unvoiced questions,
-            and find the right words and tone. as a web developer, I find what's genuine and unique about each client and create their one-of-a-kind story to share with the world.</p>
+        <p>I appreciate the differences between people and shy away from using generalizations or “types” because I
+            don’t want to obscure what is special and distinct about each person. I'm intrigued by their unique
+            qualities. I see each person’s style,
+            their motivation, how they think, and how they build relationships. Seeing the world through their eyes
+            helps me understand the one-of-a-kind stories in each person’s life. It helps me understand, anticipate
+            needs, hear unvoiced questions,
+            and find the right words and tone. as a web developer, I find what's genuine and unique about each client
+            and create their one-of-a-kind story to share with the world.</p>
 
         <div class="w3-row">
             <div class="w3-col m6 w3-center w3-padding-large">
                 <p><i class="fa fa-user"></i>&nbsp;<b>Daniel Doherty</b></p><br>
-                <img alt="Avatar image" class="w3-round w3-image w3-opacity w3-hover-opacity-off" src="https://via.placeholder.com/500x333.png">
+                <img alt="Avatar image" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+                    src="https://via.placeholder.com/500x333.png">
             </div>
 
             <!-- hide this text on small devices -->
@@ -151,20 +159,25 @@
             <!-- portfolio item -->
             <div class="w3-third">
                 <div class="w3-card-4 w3-border">
-                    <img src="img/2000pennave.com.png" alt="A design for Tsionas Management, Inc." class="w3-image w3-hover-opacity" onclick="onClick(this)">
-                    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
+                    <img src="img/2000pennave.com.png" alt="A design for Tsionas Management, Inc."
+                        class="w3-image w3-hover-opacity" onclick="onClick(this)">
+                    <button onclick="document.getElementById('id01').style.display='block'"
+                        class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
 
                     <!-- project detail modal -->
                     <div id="id01" class="w3-modal">
                         <div class="w3-modal-content w3-card-4 w3-animate-zoom">
                             <header class="w3-container dark">
-                                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button dark w3-xlarge w3-display-topright">&times;</span>
+                                <span onclick="document.getElementById('id01').style.display='none'"
+                                    class="w3-button dark w3-xlarge w3-display-topright">&times;</span>
                                 <h4 class="text-light">2000 Penn Ave</h4>
                             </header>
 
                             <div class="w3-bar w3-border-bottom">
-                                <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'screenshots')">Screenshots</button>
-                                <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'technology')">Technology</button>
+                                <button class="tablink w3-bar-item w3-button"
+                                    onclick="openTab(event, 'screenshots')">Screenshots</button>
+                                <button class="tablink w3-bar-item w3-button"
+                                    onclick="openTab(event, 'technology')">Technology</button>
                             </div>
 
                             <div id="screenshots" class="w3-container tab">
@@ -189,7 +202,8 @@
                             </div>
 
                             <div class="w3-container w3-padding">
-                                <button class="w3-button w3-right w3-border light text-grey hover-grey" onclick="document.getElementById('id01').style.display='none'">Close</button>
+                                <button class="w3-button w3-right w3-border light text-grey hover-grey"
+                                    onclick="document.getElementById('id01').style.display='none'">Close</button>
                             </div>
                         </div>
                     </div>
@@ -201,8 +215,10 @@
             <!-- portfolio item -->
             <div class="w3-third">
                 <div class="w3-card-4 w3-border">
-                    <img src="img/thedch.org.png" alt="A design for the Delaware Center for Horticulture" class="w3-image w3-hover-opacity" onclick="onClick(this)">
-                    <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
+                    <img src="img/thedch.org.png" alt="A design for the Delaware Center for Horticulture"
+                        class="w3-image w3-hover-opacity" onclick="onClick(this)">
+                    <button onclick="document.getElementById('id02').style.display='block'"
+                        class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
                 </div>
 
             </div>
@@ -210,8 +226,10 @@
             <!-- portfolio item -->
             <div class="w3-third">
                 <div class="w3-card-4 w3-border">
-                    <img src="https://via.placeholder.com/300x169.png" alt="A design concept for a cafe" class="w3-image w3-hover-opacity" onclick="onClick(this)">
-                    <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
+                    <img src="https://via.placeholder.com/300x169.png" alt="A design concept for a cafe"
+                        class="w3-image w3-hover-opacity" onclick="onClick(this)">
+                    <button onclick="document.getElementById('id03').style.display='block'"
+                        class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
                 </div>
             </div>
 
@@ -222,24 +240,31 @@
             <!-- portfolio item -->
             <div class="w3-third">
                 <div class="w3-card-4 w3-border">
-                    <img src="img/macdonaldelec.com.png" alt="A design for Charles H. Macdonald Electric, Inc." class="w3-image w3-hover-opacity" onclick="onClick(this)">
-                    <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
+                    <img src="img/macdonaldelec.com.png" alt="A design for Charles H. Macdonald Electric, Inc."
+                        class="w3-image w3-hover-opacity" onclick="onClick(this)">
+                    <button onclick="document.getElementById('id04').style.display='block'"
+                        class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
                 </div>
             </div>
 
             <!-- portfolio item -->
             <div class="w3-third">
                 <div class="w3-card-4 w3-border">
-                    <img src="https://via.placeholder.com/300x169.png" alt="A design concept for a charity organization" class="w3-image w3-hover-opacity" onclick="onClick(this)">
-                    <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
+                    <img src="https://via.placeholder.com/300x169.png" alt="A design concept for a charity organization"
+                        class="w3-image w3-hover-opacity" onclick="onClick(this)">
+                    <button onclick="document.getElementById('id05').style.display='block'"
+                        class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
                 </div>
             </div>
 
             <!-- portfolio item -->
             <div class="w3-third">
                 <div class="w3-card-4 w3-border">
-                    <img src="https://via.placeholder.com/300x169.png" alt="A design concept for a small business website" class="w3-image w3-hover-opacity" onclick="onClick(this)">
-                    <button onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
+                    <img src="https://via.placeholder.com/300x169.png"
+                        alt="A design concept for a small business website" class="w3-image w3-hover-opacity"
+                        onclick="onClick(this)">
+                    <button onclick="document.getElementById('id06').style.display='block'"
+                        class="w3-button w3-small w3-padding-small w3-block w3-light-grey">View</button>
                 </div>
             </div>
 
@@ -267,7 +292,8 @@
         <p class="w3-center"><em>I'd love your feedback!</em></p>
 
         <div class="w3-row w3-padding-32 w3-section">
-            <div class="w3-col m4 w3-container"><img class="w3-image w3-round" src="img/kennett-square-feature%20(1).jpg" style="width:100%"></div>
+            <div class="w3-col m4 w3-container"><img class="w3-image w3-round"
+                    src="img/kennett-square-feature%20(1).jpg" style="width:100%"></div>
             <div class="w3-col m8 w3-panel">
                 <div class="w3-large w3-margin-bottom">
                     <i class="fa fa-map-marker fa-fw w3-large"></i> Kennett Square, PA<br>
@@ -281,7 +307,8 @@
                         <div class="w3-half">
                             <input class="w3-input w3-border" name="email" placeholder="email" required="" type="text">
                         </div>
-                    </div><input class="w3-input w3-border" name="message" placeholder="message" required="" type="text">
+                    </div><input class="w3-input w3-border" name="message" placeholder="message" required=""
+                        type="text">
                     <button class="w3-button w3-black w3-right w3-section" type="submit">Send Message</button>
                 </form>
             </div>
